@@ -1,0 +1,21 @@
+{
+  "name": "test-tailwindsetup",
+  "version": "1.0.0",
+  "description": "this is a test for setting up tailwindcss with postcss",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/input.css -o dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-work:DanK04/test-tailwindsetup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
